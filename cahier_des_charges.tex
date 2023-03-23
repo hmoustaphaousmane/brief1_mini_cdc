@@ -9,12 +9,16 @@
 	\begin{titlepage}
 		\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 		\center
-		\textsc{\LARGE
-			Université de N'Djamèna \\[0.5cm] Tech4Tchad
+		\textsc{\large
+			Département de Mathémathiques et Informatique \\
+			Faculté des Sciences Exactes et Appliquées \\
+			Université de N'Djamèna \\[0.5cm]
+			Simplonline.co \\Tech4Tchad 
 		} \\[1cm]
-		\includegraphics[scale=0.5]{logo.png} \\[1cm]
+		%\includegraphics[scale=0.5]{logo.png} \\[1cm]
 		\HRule \\[0.15cm]
-		{ \huge \bfseries Inscription en Ligne à l'Université de N'Djamena : Cas de la Faculté des Sciences Exactes et Appliquées \\[0.15cm] }
+		{ %\huge
+			\bfseries Inscription en Ligne à l'Université de N'Djamena : Cas de la Faculté des Sciences Exactes et Appliquées \\[0.15cm] }
 		\HRule \\[1.5cm]
 		Hassane MOUSTAPHA OUSMANE
 		\\[1cm]
@@ -78,8 +82,8 @@
 			3 & 545 \\
 			\hline
 		\end{tabular}
-		\caption{Tableux des sigles et abréviations utilisés.}
-		\label{table:data}
+		\caption{Sigles et Abréviations utilisés.}
+		\label{table:sigle_abv}
 	\end{table}
 
 	\newpage
@@ -127,14 +131,15 @@
 	• Verser les frais de scolarité en se basant sur les informations du quitus ;\\
 	• Envoyer le bordereau de paiement en fichier PDF ;\\
 	• Déposer son dossier physique à la scolarité (incluant la photocopie du bordereau de paiement et non l’original) ;\\
-	• S’inscrire aux matières.\\
-	
-	On va aussi implémenter les fonctionnalités permettant de faire les statistiques(analyser les données) :\\
-	• Récupérer le nombre des filles, garçons inscrits ;\\
-	• Analyser les inscriptions par facultés/département/filière/matière ;\\
-	• Analyser les réussites et échecs ;\\
-	• Analyser les notes ;\\
-	• Analyser les inscriptions aux matières optionnelles.\\
+	• S’inscrire aux matières ;\\
+	• Faire une demande de certificat de scolarité.\\
+		
+	%On va aussi implémenter les fonctionnalités permettant de faire les statistiques(analyser les données) :\\
+	%• Récupérer le nombre des filles, garçons inscrits ;\\
+	%• Analyser les inscriptions par facultés/département/filière/matière ;\\
+	%• Analyser les réussites et échecs ;\\
+	%• Analyser les notes ;\\
+	%• Analyser les inscriptions aux matières optionnelles.\\
 	
 	\subsubsection{Attentes du système}
 	Pour pouvoir atteindre notre objectif, on va devoir concevoir une base de données bien structurée dans laquelle seront stockée toutes les données reletives aux inscriptions ainsi qu’un système fiable qui perdurera assez longtemps (des années et des années). Aussi, sont néccessaires les éléments suivants :
@@ -212,12 +217,12 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=12.5cm]{use_case_diag}
+		\includegraphics[width=\textwidth]{use_case_diag}
 		\caption{Diagramme des cas d'utilisation}
 		\label{fig:figure3}
 	\end{figure}
 
-	\textbf{Description des cas d'utilisations}
+	%\textbf{Description des cas d'utilisations}
 
 	\subsubsection{Diagramme de classe}
 	Le diagramme de classes décrit la structure interne du système
@@ -229,6 +234,20 @@
 	attributs et opérations (méthodes et fonctions). C’est
 	l’instance d’une classe. Une classe est un régroupement d’objets de même nature i.e.	un ensemble d’objet ayant les même attributs et les même
 	opérations.
+		
+	Les différentes classes du système sont :
+	\begin{itemize}
+		\item Etudiant
+		\item Dossier
+		\item Quittus
+		\item Matiere
+		\item Composition
+		\item Filiere
+		\item Departement
+		\item Faculte
+		\item Scolarite
+		\item Decanat
+	\end{itemize}
 	
 	En UML, Une classe est représentée par un rectangle séparé en trois parties :
 	\begin{itemize}
@@ -242,30 +261,150 @@
 		\includegraphics[width=.25\textwidth]{class}
 		\caption{Une classe en UML}
 		\label{fig:figure2}
-	\end{figure}	
-	Le diagramme de classe est d'une grande utilité car il permet de modéliser les objets qui constituent le système, d'afficher les relations existante entre les objets et de décrire ce qu’ils font et les services qu’ils fournissent. Aussi, il permet de visualiser, définir et documenter des fonctions structurelles dans nos modèles.
+	\end{figure}
+
+	Le diagramme de classe est d'une grande utilité car il permet de modéliser les objets qui constituent le système, d'afficher les relations existante entre les objets et de décrire ce qu’ils font et les services qu’ils fournissent. Aussi, il permet de visualiser, définir et documenter des fonctions structurelles dans nos modèles.\\
+	Le diagramme de classe suivant (Figure \ref{fig:figure4}) montre, les différentes classes du système ainsi que les relations qui existes entre elles et leurs multiplicité.
+	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=15cm]{use_case_diag}
+		\includegraphics[width=\textwidth]{u_class_diag_1}
 		\caption{Diagramme des classe}
 		\label{fig:figure4}
 	\end{figure}
+
 	\newpage
 	\subsection{MERISE}
 	MERISE est une méthode d’analyse, de conception et de gestion de projets informatiques. Elle a pour but de concevoir des systèmes d’information et est basée sur la séparation des données et des traitements en plusieurs modèles conceptuels et physiques.
 	
-	Pour l’analyse et la conception de notre système, on va élaborer les modèles suivants :
-	\begin{itemize}
-		\item Le Modèle Conceptuel des données (MCD)
-		\item Le Modèle Logique des données (MLD)
-		\item Le Modèle Physique des données (MPD)
-	\end{itemize}
-	\newpage
+	Pour l’analyse et la conception de notre système, on va modéliser les modèles suivants : le Modèle Conceptuel des données (MCD), le Modèle Logique des données (MLD) et le Modèle Physique des données (MPD). Cette liste n'est pas exhaustive mais s'interessera à ceux-ci pour le moment.\\
+
+
+	\subsubsection{MCD}
+	Appelé aussi Modèles Entités/Associations (E/A), le MCD a pour but d'écrire de façon formelle les données qui seront utilisées par le système d'information. Il s'agit donc d'une représentation des données, facilement compréhensible. Il permettant de décrire le système d'information en usant des entités et des associations.
 	
+	En MERISE, une entité est un ensemble d'objet appartenant à un même ensemble qui est représenté par un rectangle. Une association est un lien sémantiques qu'il entre des entités le plus souvent désigné par un verbe.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.25\textwidth]{entite}
+		\caption{Modélisation d'un Entité en MRISE.}
+		\label{fig:figure5}
+	\end{figure}
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=.75\textwidth]{association}
+	\caption{Représentation d'un Association et d'un Association ayant un attribut d'association en MERISE.}
+	\label{fig:figure5.5}
+	\end{figure}
+
+	Les entités qui peuvent exister dans le système sont :
+	\begin{itemize}
+		\item Etudiant
+		\item Dossier
+		\item Quittus
+		\item Matiere
+		\item Filiere
+		\item Departement
+		\item Faculte
+		\item Scolarite
+		\item Decanat
+	\end{itemize}
+	Le tableau suivant liste les différentes associations et les entités respectives qu'elles relient :
+	%Les associations reliant ces différentes entités sont illustrées dans le tableau suivant :
+	\begin{table}[h!]
+		\centering
+		\begin{tabular}{|| c | c||}
+			\hline 
+			Associations & Entités concernées \\[0.5ex]
+			\hline \hline
+			DConcerner & \begin{tabular}{c}
+				Etudiant \\ Dossier
+			\end{tabular} \\
+			\hline
+			Retirer & \begin{tabular}{c}
+				Etudiant \\ Dossier
+			\end{tabular} \\
+			\hline
+			Composer & \begin{tabular}{c}
+				Etudiant \\ Quittus
+			\end{tabular} \\
+			\hline
+			SInscrire & \begin{tabular}{c}
+				Etudiant \\ Matiere
+			\end{tabular} \\
+			\hline
+			Apppartenir & \begin{tabular}{c}
+				Etudiant \\ Filiere
+			\end{tabular} \\
+			\hline
+			Contenir & \begin{tabular}{c}
+				Filiere \\ Faculte
+			\end{tabular} \\
+			\hline
+			SConcerner & \begin{tabular}{c}
+				Faculte \\ Decanat
+			\end{tabular} \\
+			\hline
+			Concerner & \begin{tabular}{c}
+				Faculte \\ Scolarite
+			\end{tabular} \\
+			\hline
+		\end{tabular}
+		\caption{Entités et leurs Associations respectives.}
+		\label{table:e_a}
+	\end{table}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{mcd}
+		\caption{Modèle Conceptuel des Données}
+		\label{fig:figure6}
+	\end{figure}
+
+	\subsubsection{MLD}
+	Ce modèle consiste à décrire la structure de données utilisée sans faire référence à un langage de programmation. Il s'agit donc de préciser le type de données utilisées lors des traitements. Ce modèle est donc dépendant du type de base de données a utiliser.
+	Pour passer du MCD au MDL, il y a quelques règles de transformation à respecter :
+	\begin{itemize}
+		\item Chaque entité du MCD devient une table dans le MLD;
+		\item L'identifiant de l'entité devient la clé primaire de la tableet ses propriétés standards deviennent des attributs (colonnes) de la table;
+		\item La clé primaire de la table basée sur l'entité à cardinalité (x,n) migre en tant que clé étrangère vers la table basée sur l'entité à cardinalité (x,1);
+		\item Chaque association (x,n)-(x,n) (plusieurs à plusieurs) devient une table dont la clé primaire est formé par la concaténation des clés qui font reférences aux tables qu'elle relie et ses éventuelles propriétés deviennent des attributs;
+		\item Chaque association unaire disparaît, la clé primaire de chacune des tables devient clé étrangère de l'autre. Pour les associations (0,1)-(1,1), on duplique la clé de la table basée sur l'entité à cardinalité (0,1) comme clé étrangère dans la table basée sur l'entité à cardinalité (1,1);
+	\end{itemize}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{mld}
+		\caption{Modèle Logique des Données}
+		\label{fig:figure7}
+	\end{figure}
+
+	\subsubsection{MPD}
+	Le MPD quand à lui consiste à implémenter le modèle dans le SGBD, c'est-à-dire le traduire dans un langage de définition de données. Dans cette étape, on utilise généralement le SQL.\\
+	
+	\newpage
+	\section{Charte Graphique}
+	
+	\subsection{Police}
+	
+	\subsection{Couleur}
+	
+	\subsection{Logo}
+	
+	\newpage
+	\section{Budget}
+	
+	\newpage
+	\section{Delais d'Exécution}
+	
+
+	\newpage
 	\section*{Conclusion}
 	\addcontentsline{toc}{section}{\protect\numberline{}Conclusion}
-	\newpage
 	
+	\newpage
 	\section*{Reférences}
 	\addcontentsline{toc}{section}{\protect\numberline{}Reférences}
 	Ci-dessous la list des liens de différentes pages web qui ont été consultées et la date de la dernière visite :
