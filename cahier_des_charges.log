@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.8)  23 MAR 2023 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.8)  23 MAR 2023 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,11 +336,11 @@ Package caption Info: End \AtBeginDocument code.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./cahier_des_charges.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 8.
 )
 \tf@toc=\write4
 \openout4 = `cahier_des_charges.toc'.
@@ -362,21 +362,13 @@ Overfull \hbox (31.76619pt too wide) in paragraph at lines 42--43
 tre res-pon-sable p^^Sedagogique pour son appr^^Seciation. 
  []
 
-[1] [2] (./cahier_des_charges.lof)
-\tf@lof=\write5
-\openout5 = `cahier_des_charges.lof'.
-
- (./cahier_des_charges.lot)
-\tf@lot=\write6
-\openout6 = `cahier_des_charges.lot'.
-
- [3]
-Overfull \hbox (26.90434pt too wide) in paragraph at lines 66--85
+[1] [2]
+Overfull \hbox (26.90434pt too wide) in paragraph at lines 60--79
  [][] 
  []
 
-[4]
-Overfull \hbox (9.72224pt too wide) in paragraph at lines 102--104
+[3]
+Overfull \hbox (9.72224pt too wide) in paragraph at lines 96--98
 []\OT1/cmr/m/n/12 Dans ce do-cu-ment, dans un pre-mier temps nous al-lons faire
  une pr^^Sesentation
  []
@@ -385,105 +377,113 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 	
-        [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 125--136
+l.98 	
+       [1] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 119--130
 
  []
 
 [3]
-Overfull \hbox (25.83606pt too wide) in paragraph at lines 162--163
+Overfull \hbox (25.83606pt too wide) in paragraph at lines 156--157
 []\OT1/cmr/m/n/12 UML s'adresse ^^Ra toutes les per-sonnes charg^^Sees de la pr
 o-duc-tion, du d^^Seploiement
  []
 
-<actor.png, id=198, 78.2925pt x 106.3975pt>
+<actor.png, id=179, 78.2925pt x 106.3975pt>
 File: actor.png Graphic file (type png)
 <use actor.png>
-Package pdftex.def Info: actor.png  used on input line 171.
+Package pdftex.def Info: actor.png  used on input line 165.
 (pdftex.def)             Requested size: 29.24881pt x 39.74797pt.
-<use_case.png, id=200, 189.70876pt x 97.36375pt>
+<use_case.png, id=181, 189.70876pt x 97.36375pt>
 File: use_case.png Graphic file (type png)
 <use use_case.png>
-Package pdftex.def Info: use_case.png  used on input line 177.
+Package pdftex.def Info: use_case.png  used on input line 171.
 (pdftex.def)             Requested size: 77.99881pt x 40.0308pt.
 [4]
-<use_case_diag.png, id=206, 1164.35pt x 973.6375pt>
+<use_case_diag.png, id=187, 1164.35pt x 973.6375pt>
 File: use_case_diag.png Graphic file (type png)
 <use use_case_diag.png>
-Package pdftex.def Info: use_case_diag.png  used on input line 220.
+Package pdftex.def Info: use_case_diag.png  used on input line 214.
 (pdftex.def)             Requested size: 390.0pt x 326.11487pt.
  [5 <./actor.png> <./use_case.png>] [6 <./use_case_diag.png (PNG copy)>]
-<class.png, id=222, 218.8175pt x 168.63pt>
+<class.png, id=205, 218.8175pt x 168.63pt>
 File: class.png Graphic file (type png)
 <use class.png>
-Package pdftex.def Info: class.png  used on input line 261.
+Package pdftex.def Info: class.png  used on input line 255.
 (pdftex.def)             Requested size: 97.5pt x 75.1366pt.
-<u_class_diag_1.png, id=224, 772.8875pt x 913.4125pt>
+<u_class_diag_1.png, id=207, 772.8875pt x 913.4125pt>
 File: u_class_diag_1.png Graphic file (type png)
 <use u_class_diag_1.png>
-Package pdftex.def Info: u_class_diag_1.png  used on input line 271.
+Package pdftex.def Info: u_class_diag_1.png  used on input line 265.
 (pdftex.def)             Requested size: 390.0pt x 460.91426pt.
 
 [7 <./class.png>] [8 <./u_class_diag_1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<entite.png, id=235, 150.5625pt x 140.525pt>
+<entite.png, id=220, 150.5625pt x 140.525pt>
 File: entite.png Graphic file (type png)
 <use entite.png>
-Package pdftex.def Info: entite.png  used on input line 290.
+Package pdftex.def Info: entite.png  used on input line 284.
 (pdftex.def)             Requested size: 97.5pt x 91.00351pt.
-<association.png, id=236, 401.5pt x 130.4875pt>
+<association.png, id=221, 401.5pt x 130.4875pt>
 File: association.png Graphic file (type png)
 <use association.png>
-Package pdftex.def Info: association.png  used on input line 297.
+Package pdftex.def Info: association.png  used on input line 291.
 (pdftex.def)             Requested size: 292.5pt x 95.0679pt.
 [9 <./entite.png (PNG copy)> <./association.png (PNG copy)>]
-<mcd.png, id=241, 883.3pt x 833.1125pt>
+<mcd.png, id=228, 883.3pt x 833.1125pt>
 File: mcd.png Graphic file (type png)
 <use mcd.png>
-Package pdftex.def Info: mcd.png  used on input line 361.
+Package pdftex.def Info: mcd.png  used on input line 355.
 (pdftex.def)             Requested size: 390.0pt x 367.84186pt.
  [10]
-Overfull \hbox (1.40149pt too wide) in paragraph at lines 373--374
+Overfull \hbox (1.40149pt too wide) in paragraph at lines 367--368
 []\OT1/cmr/m/n/12 Chaque as-so-cia-tion (x,n)-(x,n) (plu-sieurs ^^Ra plu-sieurs
 ) de-vient une table
  []
 
 [11 <./mcd.png (PNG copy)>]
-<mld.png, id=250, 712.6625pt x 772.8875pt>
+<mld.png, id=239, 712.6625pt x 772.8875pt>
 File: mld.png Graphic file (type png)
 <use mld.png>
-Package pdftex.def Info: mld.png  used on input line 379.
+Package pdftex.def Info: mld.png  used on input line 373.
 (pdftex.def)             Requested size: 390.0pt x 422.95485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
 [12 <./mld.png (PNG copy)>] [13]
-Overfull \hbox (5.41396pt too wide) in paragraph at lines 389--390
+Overfull \hbox (5.41396pt too wide) in paragraph at lines 383--384
 \OT1/cmr/m/n/12 pro-jet, d'une en-tre-prise ou d'une or-ga-ni-sa-tion. Elle rep
 r^^Sesente un ^^Selargissement
  []
 
-[14]
-Overfull \hbox (38.14027pt too wide) in paragraph at lines 416--417
+[14] [15] (./cahier_des_charges.lof)
+\tf@lof=\write5
+\openout5 = `cahier_des_charges.lof'.
+
+ (./cahier_des_charges.lot)
+\tf@lot=\write6
+\openout6 = `cahier_des_charges.lot'.
+
+ [16]
+Overfull \hbox (38.14027pt too wide) in paragraph at lines 417--418
 [][]\OT1/cmr/m/n/12 https://fr.wikipedia.org/wiki/Universit%C3%A9[]de[]N%27Djam
 %C3%A9na[],
  []
 
-[15] (./cahier_des_charges.aux)
+[17] (./cahier_des_charges.aux)
 Package rerunfilecheck Info: File `cahier_des_charges.out' has not changed.
-(rerunfilecheck)             Checksum: CC0AB61EF10B2ED194043D78E7DE9292;3088.
+(rerunfilecheck)             Checksum: 6EC59AC0AF46CC434057080928B40A1E;3186.
  ) 
 Here is how much of TeX's memory you used:
- 11377 strings out of 480218
- 186191 string characters out of 5894883
- 488609 words of memory out of 5000000
- 29155 multiletter control sequences out of 15000+600000
+ 11380 strings out of 480218
+ 186224 string characters out of 5894883
+ 488604 words of memory out of 5000000
+ 29156 multiletter control sequences out of 15000+600000
  475099 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,15n,63p,924b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -493,10 +493,10 @@ Here is how much of TeX's memory you used:
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on cahier_des_charges.pdf (21 pages, 436337 bytes).
+Output written on cahier_des_charges.pdf (22 pages, 437074 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

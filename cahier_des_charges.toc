@@ -2,10 +2,8 @@
 \contentsline {section}{\numberline {}Remerciements}{i}{section*.2}%
 \contentsline {section}{\numberline {}Resumé}{ii}{section*.3}%
 \contentsline {section}{\numberline {}Abstract}{ii}{section*.4}%
-\contentsline {section}{\numberline {}Table des figures}{iii}{section*.5}%
-\contentsline {section}{\numberline {}Liste des tableaux}{iii}{section*.6}%
-\contentsline {section}{\numberline {}Sigles et Abréviations}{iv}{section*.7}%
-\contentsline {section}{\numberline {}Introduction}{1}{section*.9}%
+\contentsline {section}{\numberline {}Sigles et Abréviations}{iii}{section*.5}%
+\contentsline {section}{\numberline {}Introduction}{1}{section*.7}%
 \contentsline {section}{\numberline {1}Présentation du projet}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}L'Université de N'Djamèna}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Problématique}{2}{subsection.1.2}%
@@ -24,4 +22,7 @@
 \contentsline {subsection}{\numberline {3.1}Police}{14}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Couleur}{14}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Logo}{14}{subsection.3.3}%
-\contentsline {section}{\numberline {}Reférences}{15}{section*.19}%
+\contentsline {section}{\numberline {}Conclusion}{15}{section*.17}%
+\contentsline {section}{\numberline {}Table des figures}{16}{section*.18}%
+\contentsline {section}{\numberline {}Liste des tableaux}{16}{section*.19}%
+\contentsline {section}{\numberline {}Reférences}{17}{section*.20}%
