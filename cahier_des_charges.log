@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.8)  23 MAR 2023 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.8)  25 MAR 2023 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -383,69 +383,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--130
 
  []
 
-[3]
+[3] [4]
 Overfull \hbox (25.83606pt too wide) in paragraph at lines 156--157
 []\OT1/cmr/m/n/12 UML s'adresse ^^Ra toutes les per-sonnes charg^^Sees de la pr
 o-duc-tion, du d^^Seploiement
  []
 
-<actor.png, id=179, 78.2925pt x 106.3975pt>
+<actor.png, id=183, 78.2925pt x 106.3975pt>
 File: actor.png Graphic file (type png)
 <use actor.png>
 Package pdftex.def Info: actor.png  used on input line 165.
 (pdftex.def)             Requested size: 29.24881pt x 39.74797pt.
-<use_case.png, id=181, 189.70876pt x 97.36375pt>
+<use_case.png, id=185, 189.70876pt x 97.36375pt>
 File: use_case.png Graphic file (type png)
 <use use_case.png>
 Package pdftex.def Info: use_case.png  used on input line 171.
 (pdftex.def)             Requested size: 77.99881pt x 40.0308pt.
-[4]
-<use_case_diag.png, id=187, 1164.35pt x 973.6375pt>
+[5]
+<use_case_diag.png, id=191, 1164.35pt x 973.6375pt>
 File: use_case_diag.png Graphic file (type png)
 <use use_case_diag.png>
 Package pdftex.def Info: use_case_diag.png  used on input line 214.
 (pdftex.def)             Requested size: 390.0pt x 326.11487pt.
- [5 <./actor.png> <./use_case.png>] [6 <./use_case_diag.png (PNG copy)>]
-<class.png, id=205, 218.8175pt x 168.63pt>
+ [6 <./actor.png> <./use_case.png>] [7 <./use_case_diag.png (PNG copy)>]
+<class.png, id=209, 218.8175pt x 168.63pt>
 File: class.png Graphic file (type png)
 <use class.png>
 Package pdftex.def Info: class.png  used on input line 255.
 (pdftex.def)             Requested size: 97.5pt x 75.1366pt.
-<u_class_diag_1.png, id=207, 772.8875pt x 913.4125pt>
+<u_class_diag_1.png, id=211, 772.8875pt x 913.4125pt>
 File: u_class_diag_1.png Graphic file (type png)
 <use u_class_diag_1.png>
 Package pdftex.def Info: u_class_diag_1.png  used on input line 265.
 (pdftex.def)             Requested size: 390.0pt x 460.91426pt.
 
-[7 <./class.png>] [8 <./u_class_diag_1.png (PNG copy)>]
+[8 <./class.png>] [9 <./u_class_diag_1.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-<entite.png, id=220, 150.5625pt x 140.525pt>
+<entite.png, id=224, 150.5625pt x 140.525pt>
 File: entite.png Graphic file (type png)
 <use entite.png>
 Package pdftex.def Info: entite.png  used on input line 284.
 (pdftex.def)             Requested size: 97.5pt x 91.00351pt.
-<association.png, id=221, 401.5pt x 130.4875pt>
+<association.png, id=225, 401.5pt x 130.4875pt>
 File: association.png Graphic file (type png)
 <use association.png>
 Package pdftex.def Info: association.png  used on input line 291.
 (pdftex.def)             Requested size: 292.5pt x 95.0679pt.
-[9 <./entite.png (PNG copy)> <./association.png (PNG copy)>]
-<mcd.png, id=228, 883.3pt x 833.1125pt>
+[10 <./entite.png (PNG copy)> <./association.png (PNG copy)>]
+<mcd.png, id=232, 883.3pt x 833.1125pt>
 File: mcd.png Graphic file (type png)
 <use mcd.png>
 Package pdftex.def Info: mcd.png  used on input line 355.
 (pdftex.def)             Requested size: 390.0pt x 367.84186pt.
- [10]
+ [11]
 Overfull \hbox (1.40149pt too wide) in paragraph at lines 367--368
 []\OT1/cmr/m/n/12 Chaque as-so-cia-tion (x,n)-(x,n) (plu-sieurs ^^Ra plu-sieurs
 ) de-vient une table
  []
 
-[11 <./mcd.png (PNG copy)>]
-<mld.png, id=239, 712.6625pt x 772.8875pt>
+[12 <./mcd.png (PNG copy)>]
+<mld.png, id=243, 712.6625pt x 772.8875pt>
 File: mld.png Graphic file (type png)
 <use mld.png>
 Package pdftex.def Info: mld.png  used on input line 373.
@@ -455,13 +455,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-[12 <./mld.png (PNG copy)>] [13]
+[13 <./mld.png (PNG copy)>] [14]
 Overfull \hbox (5.41396pt too wide) in paragraph at lines 383--384
 \OT1/cmr/m/n/12 pro-jet, d'une en-tre-prise ou d'une or-ga-ni-sa-tion. Elle rep
 r^^Sesente un ^^Selargissement
  []
 
-[14] [15] (./cahier_des_charges.lof)
+[15] [16] (./cahier_des_charges.lof)
 \tf@lof=\write5
 \openout5 = `cahier_des_charges.lof'.
 
@@ -469,34 +469,34 @@ r^^Sesente un ^^Selargissement
 \tf@lot=\write6
 \openout6 = `cahier_des_charges.lot'.
 
- [16]
-Overfull \hbox (38.14027pt too wide) in paragraph at lines 421--422
+ [17]
+Overfull \hbox (38.14027pt too wide) in paragraph at lines 420--421
 [][]\OT1/cmr/m/n/12 https://fr.wikipedia.org/wiki/Universit%C3%A9[]de[]N%27Djam
 %C3%A9na[],
  []
 
-[17] (./cahier_des_charges.aux)
+[18] (./cahier_des_charges.aux)
 Package rerunfilecheck Info: File `cahier_des_charges.out' has not changed.
 (rerunfilecheck)             Checksum: 6EC59AC0AF46CC434057080928B40A1E;3186.
  ) 
 Here is how much of TeX's memory you used:
- 11380 strings out of 480218
- 186224 string characters out of 5894883
- 488604 words of memory out of 5000000
+ 11381 strings out of 480218
+ 186231 string characters out of 5894883
+ 488606 words of memory out of 5000000
  29156 multiletter control sequences out of 15000+600000
  475099 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,15n,63p,924b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,15n,63p,931b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/hassane/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
 00pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on cahier_des_charges.pdf (22 pages, 437639 bytes).
+Output written on cahier_des_charges.pdf (23 pages, 438948 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
